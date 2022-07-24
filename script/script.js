@@ -14,7 +14,7 @@ const getPositivNumber = (arrPositive) => {
         result.push(arrPositive[i])
     }
 
-    return result.length > 0 ? result : [] 
+    return result.length > 0 ? result : [];
 }
 
 const result = getPositivNumber(arr);
